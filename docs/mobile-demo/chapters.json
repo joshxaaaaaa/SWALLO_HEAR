@@ -1,0 +1,191 @@
+[
+ {
+  "n": 1,
+  "slug": "welcome",
+  "title": "Welcome",
+  "body": "The header has the light/dark switch and ⚙ for detector settings. The yellow banner is always there: SWALLOHear is a research prototype, not a diagnostic device.",
+  "start": 3.3,
+  "end": 12.4,
+  "clip": "clips/01_welcome.mp4"
+ },
+ {
+  "n": 2,
+  "slug": "demo_clip",
+  "title": "Pick a recording",
+  "body": "Four sources: demo clips from held-out test participants, upload, the phone microphone, or synthetic test signals. Here: demo clip ns027d_1.",
+  "start": 12.4,
+  "end": 21.4,
+  "clip": "clips/02_demo_clip.mp4"
+ },
+ {
+  "n": 3,
+  "slug": "verdict",
+  "title": "Verdict and summary",
+  "body": "First the quality gate, then the verdict: events detected. The cards show confident and low-confidence events, event rate, estimated SNR against the gate, and processing time.",
+  "start": 21.4,
+  "end": 30.4,
+  "clip": "clips/03_verdict.mp4"
+ },
+ {
+  "n": 4,
+  "slug": "timeline",
+  "title": "Timeline",
+  "body": "Waveform, spectrogram and detector score on one time axis. Teal = Confident, amber = Low-confidence, dotted green = expert labels. Zoom up to 8× and swipe sideways.",
+  "start": 30.4,
+  "end": 40.1,
+  "clip": "clips/04_timeline.mp4"
+ },
+ {
+  "n": 5,
+  "slug": "event_card",
+  "title": "Event card",
+  "body": "Tap a numbered marker to inspect an event: listen to just that sound, see its reliability against the threshold and what raised or lowered it, then record your own call.",
+  "start": 40.1,
+  "end": 53.2,
+  "clip": "clips/05_event_card.mp4"
+ },
+ {
+  "n": 6,
+  "slug": "why",
+  "title": "Events and “Why this score?”",
+  "body": "A table of every event, then an exact breakdown of the reliability score: it starts from an average event and each measurement pushes it up (teal) or down (amber).",
+  "start": 53.2,
+  "end": 69.5,
+  "clip": "clips/06_why.mp4"
+ },
+ {
+  "n": 7,
+  "slug": "rhythm",
+  "title": "Rhythm",
+  "body": "How swallowing is spread over time: rate, mean interval, regularity and the longest pause, with events-over-time and interval charts. Shown here on clip s007a_2, which has six events.",
+  "start": 69.5,
+  "end": 87.6,
+  "clip": "clips/07_rhythm.mp4"
+ },
+ {
+  "n": 8,
+  "slug": "robustness",
+  "title": "Robustness lab",
+  "body": "Re-runs the analysis at seven noise levels. Watch the events thin out and the quality gate start withholding results once the estimated SNR falls below the red line.",
+  "start": 87.6,
+  "end": 97.7,
+  "clip": "clips/08_robustness.mp4"
+ },
+ {
+  "n": 9,
+  "slug": "quality",
+  "title": "Signal quality",
+  "body": "Every quality-gate check with its value and limit, how the SNR is estimated (noise floor vs peaks) and the average spectrum, where mains hum would show as spikes.",
+  "start": 97.7,
+  "end": 106.7,
+  "clip": "clips/09_quality.mp4"
+ },
+ {
+  "n": 10,
+  "slug": "expert",
+  "title": "Expert comparison",
+  "body": "For labelled clips: matched events, false detections, misses, precision, recall and F1, and Expert vs System lanes (green = matched, red = unmatched).",
+  "start": 106.7,
+  "end": 115.7,
+  "clip": "clips/10_expert.mp4"
+ },
+ {
+  "n": 11,
+  "slug": "session",
+  "title": "Session log",
+  "body": "Every analysis run in this session, with exports of the log and of all your calls on events.",
+  "start": 115.7,
+  "end": 124.7,
+  "clip": "clips/11_session.mp4"
+ },
+ {
+  "n": 12,
+  "slug": "stress",
+  "title": "Stress test",
+  "body": "Add white, pink or 60 Hz mains-hum noise, or simulate clipping. At 10 dB of white noise the estimated SNR drops below the gate and the result is withheld instead of guessed.",
+  "start": 124.7,
+  "end": 150.9,
+  "clip": "clips/12_stress.mp4"
+ },
+ {
+  "n": 13,
+  "slug": "settings",
+  "title": "Detector settings",
+  "body": "All five thresholds, live. Raising the reliability threshold makes fewer events Confident but more of them correct. “Reset to validated” restores the values the results were measured with.",
+  "start": 150.9,
+  "end": 161.1,
+  "clip": "clips/13_settings.mp4"
+ },
+ {
+  "n": 14,
+  "slug": "report",
+  "title": "Printable report",
+  "body": "📄 Report opens a self-contained report in the browser: verdict, timeline, every event with its reasons and your calls, rhythm, quality and limits, ready to share or save as PDF.",
+  "start": 161.1,
+  "end": 175.2,
+  "clip": "clips/14_report.mp4"
+ },
+ {
+  "n": 15,
+  "slug": "upload",
+  "title": "Upload a file",
+  "body": "Choose any audio file on the phone (WAV, FLAC, M4A, MP3, WebM; up to 120 s). It is sent to the analysis server and analysed exactly like the demo clips.",
+  "start": 175.2,
+  "end": 184.2,
+  "clip": "clips/15_upload.mp4"
+ },
+ {
+  "n": 16,
+  "slug": "record",
+  "title": "Record with the microphone",
+  "body": "Rest the phone’s microphone lightly against the side of the throat and press record. When you stop, the recording is analysed straight away. (Here a test tone stands in for a throat recording.)",
+  "start": 184.2,
+  "end": 200.6,
+  "clip": "clips/16_record.mp4"
+ },
+ {
+  "n": 17,
+  "slug": "synthetic",
+  "title": "Synthetic test signals",
+  "body": "Generated swallow-like bursts with known positions, for checking the pipeline end to end. Sliders set the number of bursts, the length and the random seed.",
+  "start": 200.6,
+  "end": 211.8,
+  "clip": "clips/17_synthetic.mp4"
+ },
+ {
+  "n": 18,
+  "slug": "compare",
+  "title": "Compare",
+  "body": "Two recordings side by side, here the same clip clean and with 5 dB of noise: a table with a B − A column, both detector scores overlaid, and timelines on a shared time axis.",
+  "start": 211.8,
+  "end": 227.8,
+  "clip": "clips/18_compare.mp4"
+ },
+ {
+  "n": 19,
+  "slug": "batch",
+  "title": "Batch",
+  "body": "Analyse many recordings at once, with optional noise: totals, a table with mean reliability and F1, and an SNR-vs-events chart against the quality gate.",
+  "start": 227.8,
+  "end": 236.8,
+  "clip": "clips/19_batch.mp4"
+ },
+ {
+  "n": 20,
+  "slug": "method",
+  "title": "Method & results",
+  "body": "How the pipeline works and what the experiments showed: noise robustness, and ordinary vs reliability-aware output at each noise level, then the headline numbers and limits.",
+  "start": 236.8,
+  "end": 252.2,
+  "clip": "clips/20_method.mp4"
+ },
+ {
+  "n": 21,
+  "slug": "dark",
+  "title": "Dark mode",
+  "body": "☾ switches the whole app, charts included, and the choice stays as you move between tabs.",
+  "start": 252.2,
+  "end": 272.2,
+  "clip": "clips/21_dark.mp4"
+ }
+]

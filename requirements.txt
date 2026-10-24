@@ -1,0 +1,12 @@
+# Compiled packages pinned to established releases: Windows Smart App Control
+# blocks DLLs from very new wheels (e.g. pandas 3.1, scikit-learn 1.9).
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.6.1
+pandas==2.2.3
+streamlit>=1.39
+plotly>=5.20
+soundfile>=0.12   # optional: FLAC support
+imageio-ffmpeg>=0.5   # mobile API: decodes phone recordings (M4A/AAC/WebM)
+pytest>=8
+# M2 (CNN) later: torch>=2.2

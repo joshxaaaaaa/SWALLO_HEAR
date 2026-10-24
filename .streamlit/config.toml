@@ -1,0 +1,11 @@
+[theme]
+base = "light"
+primaryColor = "#1B7F7A"
+font = "sans-serif"
+baseRadius = "medium"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+maxUploadSize = 20
